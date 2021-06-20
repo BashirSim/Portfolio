@@ -696,10 +696,16 @@ footer .contact {
   }
 }
 
+.alert {
+  margin-top: 1em;
+  text-align: center;
+  /* visibility: hidden; */
+}
+
 @media screen and (max-width: 767px) {
   header .navbar-brand {
     padding-top: 1em;
-    padding-left: 1.5em;
+    margin-left: 0.5em;
   }
   .ani-cont .box .title h4 {
     font-size: 3rem;
